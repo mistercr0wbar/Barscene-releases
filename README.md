@@ -21,3 +21,10 @@ Each release includes third-party notices, the full corresponding FFmpeg
 9.0.2 source, its build recipe and checksums. FFmpeg is an LGPL build without
 GPL or nonfree components. This repository distributes the application;
 it does not make the private application source public or change its terms.
+
+## Publication
+
+Releases are verified and uploaded directly from the locally tested build by
+the private source repository's release command. GitHub Actions is disabled;
+this repository has no hosted publishing workflow. Published binaries and
+previous releases are never replaced.
